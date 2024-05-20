@@ -8,8 +8,8 @@ SCREEN_HEIGHT= 600
 
 screen = pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
 
-player = pygame.Rect((35,300,15,100))
-enemy = pygame.Rect((1150,300,15,100))
+player = pygame.Rect((35,300,15,130))
+enemy = pygame.Rect((1150,300,15,130))
 ballcolor = (255, 255, 255)  
 ball_radius = 19
 ball_position = [SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2]
